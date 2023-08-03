@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.main {
+  height: 955px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.DigiWatch {
+  /* margin: auto; */
+  border: 1px solid #2d2f41;
+  border-radius: 15px;
+  background-color: #2d2f41;
+  color: white;
+  height: 191px;
+  width: 409px;
+  position: relative;
+}
+
+.DigiWatch::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), transparent);
+  z-index: -1;
+}
+
+.Hr {
+  font-size: 105px;
+  margin-top: -5px;
+  margin-left: 62px;
+}
+
+.Dt {
+  margin-left: 98px;
+  font-size: larger;
+  margin-top: -33px;
+  word-spacing: 5px;
+}
+
+.Sec {
+  font-size: x-large;
+  position: absolute;
+  left: 324px;
+  bottom: 64px;
+}
+
+.Hrt {
+  font-size: larger;
+  position: absolute;
+  left: 321px;
+  top: 35px;
+}
+
+@media all and (min-height: 956px) {
+  .main {
+    height: 1980px;
+  }
+
+  .DigiWatch {
+    margin-top: -40%;
+  }
+}
