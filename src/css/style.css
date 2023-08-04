@@ -24,21 +24,10 @@
   position: relative;
 }
 
-.DigiWatch::before {
-  content: "";
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  right: 5px;
-  bottom: 5px;
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), transparent);
-  z-index: -1;
-}
-
 .Hr {
-  font-size: 105px;
+  font-size: 110px;
   margin-top: -5px;
-  margin-left: 62px;
+  margin-left: 75px;
 }
 
 .Dt {
@@ -50,16 +39,16 @@
 
 .Sec {
   font-size: x-large;
-  position: absolute;
-  left: 324px;
-  bottom: 64px;
+    position: absolute;
+    left: 279px;
+    bottom: 60px;
 }
 
 .Hrt {
   font-size: larger;
   position: absolute;
-  left: 321px;
-  top: 35px;
+  left: 279px;
+  top: 40px;
 }
 
 @media all and (min-height: 956px) {
